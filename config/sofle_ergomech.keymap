@@ -92,12 +92,12 @@
         mouse {
             label = "mouse";
             bindings = <
-&kp ESC         &kp N1          &kp N2              &kp N3       &kp N4         &kp N5     &kp N6        &kp N7                &kp N8         &kp N9            &kp N0             &kp DELETE
-&kp TAB         &kp B           &kp Y               &mt RA(P) O  &mt RA(Y) U    &kp SQT    &kp SEMI      &kp L                 &kp D          &kp W             &kp V              &kp Z
-&kp LEFT_SHIFT  &kp C           &kp I               &kp E        &mt RA(Q) A    &kp COMMA  &kp PERIOD    &kp H                 &kp T          &mt RA(S) S       &kp N              &kp RIGHT_SHIFT
-&kp LCTRL       &kp G           &kp X               &kp J        &kp K          &kp MINUS  &kp EQUAL     &kp R                 &kp M          &kp F             &kp P              &kp Q
-&mkp MCLK       &mt LGUI GRAVE  &mt LEFT_ALT LC(V)  &kp SLASH    &kp BACKSPACE  &kp RET    &kp SPACE     &holdtolayer 0 LG(S)  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-                                                                                           &mmt MB2 MB1  &mmv MOVE_RIGHT       &mmv MOVE_UP   &mmv MOVE_LEFT    &mmv MOVE_DOWN
+&kp ESC         &kp N1          &kp N2              &kp N3       &kp N4         &kp N5     &kp N6        &kp N7           &kp N8         &kp N9            &kp N0             &kp DELETE
+&kp TAB         &kp B           &kp Y               &mt RA(P) O  &mt RA(Y) U    &kp SQT    &kp SEMI      &kp L            &kp D          &kp W             &kp V              &kp Z
+&kp LEFT_SHIFT  &kp C           &kp I               &kp E        &mt RA(Q) A    &kp COMMA  &kp PERIOD    &kp H            &kp T          &mt RA(S) S       &kp N              &kp RIGHT_SHIFT
+&kp LCTRL       &kp G           &kp X               &kp J        &kp K          &kp MINUS  &kp EQUAL     &kp R            &kp M          &kp F             &kp P              &kp Q
+&mkp MCLK       &mt LGUI GRAVE  &mt LEFT_ALT LC(V)  &kp SLASH    &kp BACKSPACE  &kp RET    &kp SPACE     &to 0            &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+                                                                                           &mmt MB2 MB1  &mmv MOVE_RIGHT  &mmv MOVE_UP   &mmv MOVE_LEFT    &mmv MOVE_DOWN
             >;
 
             sensor-bindings = <&mousescroll>, <&inc_dec_kp PG_UP PG_DN>;
