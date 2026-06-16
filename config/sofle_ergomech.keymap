@@ -17,6 +17,8 @@
 #define RAISE 2
 #define ADJUST 3
 
+&mt { tapping-term-ms = <250>; };
+
 / {
     // Activate ADJUST layer by pressing raise and lower
 
@@ -38,7 +40,7 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
         };
 
         holdtolayer: holdtolayer {
@@ -47,7 +49,7 @@
             bindings = <&to>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
             flavor = "tap-preferred";
         };
     };
