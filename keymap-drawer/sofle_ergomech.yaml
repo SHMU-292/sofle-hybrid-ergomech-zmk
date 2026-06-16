@@ -1,21 +1,7 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP, LEFT, DOWN]
-  lower:
-  - '&studio_unlock'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - '`'
+  default:
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -26,174 +12,186 @@ layers:
   - '8'
   - '9'
   - '0'
-  - F12
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
+  - DELETE
+  - TAB
+  - B
+  - Y
+  - {t: O, h: AltGr+P}
+  - {t: U, h: AltGr+Y}
+  - ''''
+  - ;
+  - L
+  - D
+  - W
+  - V
+  - Z
+  - LEFT SHIFT
+  - C
+  - I
+  - E
+  - {t: A, h: AltGr+Q}
+  - ','
+  - .
+  - H
+  - T
+  - {t: S, h: AltGr+S}
+  - N
+  - RIGHT SHIFT
+  - LCTRL
+  - G
+  - X
+  - J
+  - K
   - '-'
-  - +
-  - '{'
-  - '}'
+  - '='
+  - R
+  - M
+  - F
+  - P
+  - Q
+  - MUTE
+  - {t: '`', h: LGUI}
+  - {t: Ctl+V, h: LEFT ALT}
+  - /
+  - ENTER
+  - BACKSPACE
+  - {t: Gui+S, h: '2'}
+  - SPACE
+  - \
   - '['
   - ']'
-  - ;
-  - ':'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
-  raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
+  - {t: mouse, h: toggle}
+  - RIGHT
   - UP
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
   - LEFT
   - DOWN
-  - RIGHT
-  - DEL
-  - BSPC
-  - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - A
+  mouse:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - DELETE
+  - TAB
   - B
-  - C
+  - Y
+  - {t: O, h: AltGr+P}
+  - {t: U, h: AltGr+Y}
+  - ''''
+  - ;
+  - L
   - D
+  - W
+  - V
+  - Z
+  - LEFT SHIFT
+  - C
+  - I
   - E
-  adjust:
+  - {t: A, h: AltGr+Q}
+  - ','
+  - .
+  - H
+  - T
+  - {t: S, h: AltGr+S}
+  - N
+  - RIGHT SHIFT
+  - LCTRL
+  - G
+  - X
+  - J
+  - K
+  - '-'
+  - '='
+  - R
+  - M
+  - F
+  - P
+  - Q
+  - '&mkp MCLK'
+  - {t: '`', h: LGUI}
+  - {t: Ctl+V, h: LEFT ALT}
+  - /
+  - ENTER
+  - BACKSPACE
+  - {t: default, h: toggle}
+  - SPACE
+  - \
+  - '['
+  - ']'
+  - {t: '&mkp MB1', h: '&mkp MB2'}
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  '2':
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - '6'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LSHFT
+  - A
+  - S
+  - D
+  - F
+  - '7'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - '8'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - MUTE
+  - LALT
+  - '0'
+  - '9'
+  - SPACE
+  - ENTER
+  - {t: default, h: toggle}
+  - '&studio_unlock'
+  - BT PRV
   - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - BT NXT
   - RGB TOG
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - A
-  - B
-  - C
-  - D
-  - E
+  - RGB COLOR HSB(360,100,50)
+  - RGB BRI
+  - RGB COLOR HSB(0,0,100)
+  - RGB BRD
