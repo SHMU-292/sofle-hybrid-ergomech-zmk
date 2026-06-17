@@ -86,7 +86,7 @@
 &kp LEFT_SHIFT  &kp C           &kp I               &kp E        &mt RA(Q) A  &kp COMMA      &kp PERIOD            &kp H      &kp T          &mt RA(S) S       &kp N              &kp RIGHT_SHIFT
 &kp LCTRL       &kp G           &kp X               &kp J        &kp K        &kp MINUS      &kp EQUAL             &kp R      &kp M          &kp F             &kp P              &kp Q
 &kp C_MUTE      &mt LGUI GRAVE  &mt LEFT_ALT LC(V)  &kp SLASH    &kp ENTER    &kp BACKSPACE  &holdtolayer 1 LG(S)  &kp SPACE  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-                                                                                             &to 0                 &kp RIGHT  &kp UP         &kp LEFT          &kp DOWN
+                                                                                             &none                 &kp RIGHT  &kp UP         &kp LEFT          &kp DOWN
             >;
 
             sensor-bindings =
@@ -96,12 +96,12 @@
 
         Game+Config {
             bindings = <
-&kp ESC     &kp N1    &kp N2  &kp N3  &kp N4     &kp N5     &none            &none                              &none            &none                           &none            &none
-&kp TAB     &kp Q     &kp W   &kp E   &kp R      &kp N6     &none            &none                              &none            &none                           &none            &none
-&kp LSHFT   &kp A     &kp S   &kp D   &kp F      &kp N7     &none            &none                              &none            &none                           &none            &none
-&kp LCTRL   &kp Z     &kp X   &kp C   &kp V      &kp N8     &none            &none                              &none            &none                           &none            &none
-&kp C_MUTE  &kp LALT  &kp N0  &kp N9  &kp SPACE  &kp ENTER  &to 0            &studio_unlock                     &bt BT_PRV       &bt BT_CLR                      &bt BT_NXT
-                                                            &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(360,100,50)  &rgb_ug RGB_BRI  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_BRD
+&kp ESC     &kp N1    &kp N2  &kp N3  &kp N4     &kp N5     &none  &none            &none            &none                           &none            &none
+&kp TAB     &kp Q     &kp W   &kp E   &kp R      &kp N6     &none  &none            &none            &none                           &none            &none
+&kp LSHFT   &kp A     &kp S   &kp D   &kp F      &kp N7     &none  &none            &none            &none                           &none            &none
+&kp LCTRL   &kp Z     &kp X   &kp C   &kp V      &kp N8     &none  &none            &none            &none                           &none            &none
+&kp C_MUTE  &kp LALT  &kp N0  &kp N9  &kp SPACE  &kp ENTER  &to 0  &studio_unlock   &bt BT_PRV       &bt BT_CLR                      &bt BT_NXT
+                                                            &none  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_BRD
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
