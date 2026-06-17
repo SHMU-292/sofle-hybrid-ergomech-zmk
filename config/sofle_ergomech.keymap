@@ -85,8 +85,8 @@
 &kp TAB         &kp B           &kp Y               &mt RA(P) O  &mt RA(Y) U  &kp SQT        &kp SEMI              &kp L      &kp D          &kp W             &kp V              &kp Z
 &kp LEFT_SHIFT  &kp C           &kp I               &kp E        &mt RA(Q) A  &kp COMMA      &kp PERIOD            &kp H      &kp T          &mt RA(S) S       &kp N              &kp RIGHT_SHIFT
 &kp LCTRL       &kp G           &kp X               &kp J        &kp K        &kp MINUS      &kp EQUAL             &kp R      &kp M          &kp F             &kp P              &kp Q
-&kp C_MUTE      &mt LGUI GRAVE  &mt LEFT_ALT LC(V)  &kp SLASH    &kp ENTER    &kp BACKSPACE  &holdtolayer 2 LG(S)  &kp SPACE  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-                                                                                             &to 1                 &kp RIGHT  &kp UP         &kp LEFT          &kp DOWN
+&kp C_MUTE      &mt LGUI GRAVE  &mt LEFT_ALT LC(V)  &kp SLASH    &kp ENTER    &kp BACKSPACE  &holdtolayer 1 LG(S)  &kp SPACE  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+                                                                                             &to 0                 &kp RIGHT  &kp UP         &kp LEFT          &kp DOWN
             >;
 
             sensor-bindings =
@@ -94,21 +94,7 @@
                 <&inc_dec_kp PG_UP PG_DN>;
         };
 
-        mouse {
-            label = "mouse";
-            bindings = <
-&kp ESC         &kp N1          &kp N2              &kp N3       &kp N4       &kp N5         &kp N6        &kp N7           &kp N8         &kp N9            &kp N0             &kp DELETE
-&kp TAB         &kp B           &kp Y               &mt RA(P) O  &mt RA(Y) U  &kp SQT        &kp SEMI      &kp L            &kp D          &kp W             &kp V              &kp Z
-&kp LEFT_SHIFT  &kp C           &kp I               &kp E        &mt RA(Q) A  &kp COMMA      &kp PERIOD    &kp H            &kp T          &mt RA(S) S       &kp N              &kp RIGHT_SHIFT
-&kp LCTRL       &kp G           &kp X               &kp J        &kp K        &kp MINUS      &kp EQUAL     &kp R            &kp M          &kp F             &kp P              &kp Q
-&mkp MCLK       &mt LGUI GRAVE  &mt LEFT_ALT LC(V)  &kp SLASH    &kp ENTER    &kp BACKSPACE  &to 0         &kp SPACE        &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-                                                                                             &mmt MB2 MB1  &mmv MOVE_RIGHT  &mmv MOVE_UP   &mmv MOVE_LEFT    &mmv MOVE_DOWN
-            >;
-
-            sensor-bindings = <&mousescroll>, <&inc_dec_kp PG_UP PG_DN>;
-        };
-
-        layer_2 {
+        Game+Config {
             bindings = <
 &kp ESC     &kp N1    &kp N2  &kp N3  &kp N4     &kp N5     &none            &none                              &none            &none                           &none            &none
 &kp TAB     &kp Q     &kp W   &kp E   &kp R      &kp N6     &none            &none                              &none            &none                           &none            &none
