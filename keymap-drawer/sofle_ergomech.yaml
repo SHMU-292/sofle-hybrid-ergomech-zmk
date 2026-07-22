@@ -60,11 +60,76 @@ layers:
   - \
   - '['
   - ']'
-  - ''
+  - {t: mouse, h: toggle}
   - RIGHT
   - UP
   - LEFT
   - DOWN
+  mouse:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - DELETE
+  - TAB
+  - B
+  - Y
+  - {t: O, h: AltGr+P}
+  - {t: U, h: AltGr+Y}
+  - ''''
+  - ;
+  - L
+  - D
+  - W
+  - V
+  - Z
+  - LEFT SHIFT
+  - C
+  - I
+  - E
+  - {t: A, h: AltGr+Q}
+  - ','
+  - .
+  - H
+  - T
+  - {t: S, h: AltGr+S}
+  - N
+  - RIGHT SHIFT
+  - LCTRL
+  - G
+  - X
+  - J
+  - K
+  - '-'
+  - '='
+  - R
+  - M
+  - F
+  - P
+  - Q
+  - MUTE
+  - {t: '`', h: LGUI}
+  - {t: Ctl+V, h: LEFT ALT}
+  - /
+  - ENTER
+  - BACKSPACE
+  - {t: default, h: toggle}
+  - SPACE
+  - \
+  - '['
+  - ']'
+  - {t: '&mkp LCLK', h: '&mkp RCLK'}
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
   Game+Config:
   - ESC
   - '1'
